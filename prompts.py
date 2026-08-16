@@ -67,15 +67,13 @@ EXTRACT_PROMPT = """Extract the following fields from the loan application lette
 If a field is not stated in the letter, use null. Do not guess.
 
 Example:
-
-Letter:
-"Dear Sir, My name is John Mensah, a carpenter in Tema. I request GHS 5,000 to buy timber and tools. My monthly profit is about GHS 600. My brother will guarantee the loan. I propose to repay GHS 300 monthly over 18 months."
+"Dear Sir, My name is Ama Pokuaa, a snack vendor in Accra. I request GHS 5,000 to set up a vending space. My monthly profit is about GHS 600. My mother will guarantee the loan. I propose to repay GHS 300 monthly over 18 months."
 
 JSON:
 {{
-  "applicant_name": "John Mensah",
+  "applicant_name": "Ama Pokuaa",
   "amount_ghs": 5000,
-  "purpose": "buy timber and tools",
+  "purpose": "set up a vending space",
   "monthly_profit_ghs": 600,
   "has_collateral_or_guarantor": true,
   "repayment_months": 18
